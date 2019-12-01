@@ -1,0 +1,624 @@
+body {
+  font-family: 'Century Gothic Bold';
+  font-size: 13px;
+  background-color: #F6F6F6;
+  color: #FFF;
+}
+
+/*-----------------------------------------HEADER----------------------------------*/
+
+.container-fluid {
+  max-width: 1394px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header .nav-item {
+  margin-left: 80px;
+}
+
+header .navbar .nav-link {
+  color: #000000;
+  font-family: Code;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+}
+
+header .navbar .nav-link:hover {
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  color: #4E4D4D;
+  background-color: #ffea00;
+  padding: 8px 8px;
+}
+
+.navbar .active {
+  background-color: #ffea00;
+}
+
+.navbar-toggler {
+  font-size: 14px;
+}
+
+/*-----------------------------------------TOP----------------------------------*/
+
+.slider {
+  margin-bottom: 90px;
+}
+
+.carousel-indicators li {
+  background-color: #414146;
+  max-width: 15px;
+  
+  min-height: 15px;
+}
+
+.carousel-indicators li.active {
+  background-color: #ffea00;
+  max-width: 15px;
+  max-height: 15px;
+}
+
+.top {
+  background-image: url("../img/slider_bg.webp");
+  width: 100%;
+  margin-bottom: 90px;
+}
+
+.carousel-item .carousel-caption h1 {
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #FFEA00;
+}
+  .carousel-item .carousel-caption p {
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #414146;
+}
+
+.carousel-caption {
+    bottom: 15%;
+}
+
+.carousel-item .carousel-caption a {
+   font-size: 12px;
+   font-weight: bold;
+   line-height: 38px;
+   color: #FFF;
+   background-color: #000;
+   border-bottom: 3px solid #FFEA00;
+}
+
+.icon-left-open-big:before {
+  background-color: black;
+  padding: 10px 5px 10px 5px;
+}
+
+.icon-right-open-big:before {
+    background-color: black;
+    padding: 10px 5px 10px 5px;
+}
+
+/*-----------------------------------------DESIGNS----------------------------------*/
+
+.designs .title-post h1 {
+  color: #424147;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 21px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.title-post {
+  text-align: center;
+}
+
+.designs .title-post p {
+  color: #424147;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 21px;
+  margin-bottom: 35px;
+}
+
+.card-block {
+  background-color: #414146;
+  padding: 10px;
+}
+
+.carousel-caption {
+  top: 15%;
+  left: 5%;
+  right: 5%;
+  text-align: left;
+}
+
+.carousel-caption a {
+  padding: 11px 29px;
+}
+
+.carousel-caption p {
+  padding: 5px;
+  margin-bottom: 50px;
+}
+
+.carousel-caption h1 {
+  padding: 13px;
+}
+
+.card-block h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: Code;
+  font-weight: bold;
+  line-height: 23px;
+  letter-spacing: 2px;
+}
+
+.card-block p {
+  color: #ffea00;
+  font-size: 6px;
+  font-weight: bold;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  text-align: right;
+}
+
+.card-block p span {
+  color: #FFF;
+}
+
+.design .card {
+  max-width: 250px;
+}
+
+.card-body .card-title {
+  color: #000000;
+  font-family: Code;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 32px;
+  letter-spacing: 2px;
+}
+
+.card {
+  margin: 5px 0;
+}
+
+/* 
+.designs-card:nth-child .visible {
+  display: none;
+} */
+
+/* //                 .designs-card:hover :nth-child(hover) {
+//              display: block;
+// }
+
+//              .designs-card:hover :nth-child(visible) {
+//   display: none;
+// } */
+
+/* .card-body {
+  background-color: #ffea00;
+}
+
+.card-footer {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 17px;
+  letter-spacing: 0.26px;
+  background-color: #414146;
+}
+
+.visible h2 {
+ text-transform: uppercase;
+}
+.slider img {
+  padding: 10px;
+}
+ */
+
+
+
+/* 
+.designs .title-post h1 {
+  font-size: 35px;
+  line-height: 21px;
+}
+
+.designs .title-post p {
+  font-size: 24px;
+  line-height: 21px;
+}
+.card-block .card-title h2 {
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 2px;
+}
+
+.card-block p {
+  font-size: 10px;
+  line-height: 17px;
+}
+
+.card-body .card-title {
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 2px;
+} */
+
+
+/*-----------------------------------------WORK----------------------------------*/
+
+.work h1 {
+  color: #ffea00;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 21px;
+  text-transform: uppercase;
+  background-color: #424147;
+  padding: 10px 20px;
+  margin-bottom: 16px;
+}
+
+.work p {
+  color: #424146;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 21px;
+  margin-bottom: 40px;
+}
+
+.work .row .col, .clients .row .col {
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.work .work-title:before {
+  content: "";
+  border-top: 1px solid #CACACA;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 150%;
+  width: calc(50vw - 130px);
+}
+.work .work-title:after {
+  content: "";
+  border-top: 1px solid #CACACA;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 150%;
+  width: calc(50vw - 130px);
+}
+.work .grid {
+    padding: 5% 0 10%; }
+.work .grid .grid-sizer, .work .grid .grid-item {
+    width: 100%; }
+.work .grid .gutter-sizer {
+    width: 0; }
+.work .grid .grid-item img {
+    width: 100%; }
+
+/*-----------------------------------------CLIENTS----------------------------------*/
+
+.clients .row .col h1 {
+  color: #ffea00;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 21px;
+  text-transform: uppercase;
+  background-color: #424147;
+  padding: 10px 20px;
+  margin-bottom: 16px;
+}
+
+.clients p {
+  color: #424146;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 21px;
+  margin-bottom: 40px;
+}
+
+/*-----------------------------------------FOOTER----------------------------------000000*/
+.footer-top {
+  background-color: #414146;
+  padding-bottom: 30px;
+}
+.footer-top .row {
+  margin: 0;
+}
+
+.footer-top h2 {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 32px;
+  padding: 35px 0;
+  margin: 0;
+}
+
+.footer-top .left .about a  {
+  font-weight: bold;
+  line-height: 38px;
+  color: #FFF;
+  background-color: #000;
+  border-bottom: 3px solid #FFEA00;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 5px 15px;
+}
+
+.footer-top p {
+  padding-bottom: 15px ;
+}
+
+.footer-top .photo li {
+  padding: 2px;
+}
+
+.photo .row {
+  margin-left: 0;
+}
+
+.footer-top .tweets p a{
+  color: #FFF;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 21px;
+}
+
+.footer-top .tweets span {
+  color: #ffea00;
+}
+
+.footer-top .left, .center, .right {
+  padding: 0 1%;
+}
+
+.footer-top .tweets p {
+  padding: 0 0 0 40px;;
+  margin: 0;
+}
+
+.footer-top .days-ago{
+  color: #ffea00;
+  font-size: 8px;
+  font-weight: bold;
+  line-height: 21px;
+}
+
+.tweets .row li{
+  margin-bottom: 15px;
+}
+
+.tweets .row p:first-child{
+  background: url(../img/home/Twitter-icon.webp) left no-repeat;
+  padding: 0 0 0 40px;
+}
+
+.footer-top .social a {
+  color: #FFF;
+  background-color: #000;
+  padding: 5px 5px 0;
+}
+
+.footer-top .social a:hover {
+  color: #5E45DD;
+}
+
+.social ul {
+  display: flex;
+  align-items: center;
+}
+
+.social ul li{
+  padding:1px;
+}
+
+.follow input {
+  border: none;
+  border-bottom: 2px solid #ffea00;
+  background-color: transparent;
+}
+
+.icon-envelope-o, .icon-phone, .icon-map-marker {
+  color: #FFF;
+  background-color: #000;
+  padding: 5px 7px;
+  margin-right: 20px;
+}
+
+.tel a:hover, .mail a:hover {
+    color: #5E45DD;
+    transition: 1s;
+}
+
+.contact a {
+  color: #F6F6F6;
+  font-family: 'Century Gothic Bold';
+  font-size: 13px;
+}
+
+.button .icon-envelope-o:hover {
+  background-color: #5E45DD;
+  transition: 1s;
+}
+
+.tel p:last-child {
+  margin-left: 46%;
+  padding-top: 0;
+  margin-top: -20px;
+}
+
+.footer-bottom {
+    background-color: #000;
+}
+.footer-bottom p {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 32px;
+    margin: 0;
+}
+.footer-bottom .nav-item {
+    margin-left: 80px;
+}
+.footer-bottom li {
+    text-transform: uppercase;
+}
+
+.footer-bottom .navbar-dark {
+    padding: 15px 0;
+}
+
+.footer-bottom .navbar .nav-link:hover {
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    color: #4E4D4D;
+    background-color: #ffea00;
+}
+
+/*-----------------------------------------MEDIA----------------------------------*/
+
+@media (min-width: 576px) {
+
+.navbar-toggler {
+  font-size: 24px;
+}
+
+.carousel-indicators li {
+  background-color: #414146;
+  max-width: 26px;
+  min-height: 26px;
+}
+
+.carousel-indicators li.active {
+  background-color: #ffea00;
+  max-width: 26px;
+  max-height: 26px;
+}
+
+.designs .title-post h1 {
+  color: #424147;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 21px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.title-post {
+  text-align: center;
+}
+
+.designs .title-post p {
+  color: #424147;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 21px;
+  margin-bottom: 35px;
+}
+
+.card-block {
+  padding: 10px;
+}
+}
+
+@media (min-width: 992px) {
+
+.carousel-control-next, .carousel-control-prev {
+  width: 4%;
+}
+
+.carousel-item .carousel-caption h1 {
+  font-size: 20px;
+}
+.carousel-item .carousel-caption p {
+  font-size: 14px;
+  line-height: 33px;
+}
+
+.carousel-item .carousel-caption a {
+  font-size: 12px;
+  line-height: 38px;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 35%;
+  left: 5%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.icon-right-open-big:before {
+  padding: 20px 5px 20px 10px;
+}
+
+.icon-left-open-big:before {
+  padding: 20px 10px 20px 5px;
+}
+}
+
+@media (min-width: 1200px) {
+
+.icon-left-open-big:before {
+  padding: 20px 10px 20px 5px;
+}
+
+.carousel-item .carousel-caption h1 {
+  font-size: 50px;
+}
+
+.carousel-item .carousel-caption p {
+  font-size: 24px;
+}
+
+.carousel-item .carousel-caption a {
+  font-size: 24px;
+  line-height: 38px;
+}
+
+header .navbar .nav-link {
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 1.6px;
+}
+}
+
+@media (min-width: 1920px) {
+
+.carousel-control-next, .carousel-control-prev {
+  width: 2%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+

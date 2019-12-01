@@ -1,0 +1,359 @@
+@import "variables";
+
+body {
+  font-family: $font;
+  font-size: 13px;
+  background-color: $bgcolor;
+  color: $white;
+}
+
+/*-----------------------------------------HEADER----------------------------------*/
+
+.container-fluid {
+  max-width: 1394px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+header
+  .nav-item {
+  margin-left: 80px;
+}
+
+header
+  .navbar
+    .nav-link {
+      color: $black;
+      font-family: $font;
+      font-size: 12px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1.6px;
+    .nav-link:hover {
+      transition: 1s;
+      color: $grey;
+      background-color: $yellow;
+      padding: 8px 8px;
+  }
+}
+
+.navbar .active {
+  background-color: $yellow;
+}
+
+.navbar-toggler {
+  font-size: 14px;
+}
+
+/*-----------------------------------------PORTFOLIO----------------------------------*/
+
+.portfolio .title-post h1 {
+  color: $color;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 21px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.row {
+  margin: 0;
+}
+
+.portfolio .bg-portfolio h2 {
+  color: $yellow;
+  font-family: $font;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+.bg-portfolio {
+  background: url("../img/portfolio/slider_bg.png");
+  margin-bottom: 80px;
+  h2 {
+    padding: 20px 100px 20px 20px;
+    background-color: $grey;
+    margin: 40px 0;
+  }
+}
+
+.title-post {
+  text-align: center;
+}
+
+.portfolio .title-post p {
+  color: $color;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 21px;
+  margin-bottom: 35px;
+}
+
+.designs-card {
+  position: relative;
+  width: 100%;
+}
+
+.container .nav-tabs .nav-link {
+  color: $grey;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 21px;
+}
+
+.image {
+  display: block;
+  padding: 15px 5px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s;
+  background-color: $yellow;
+}
+
+.designs-card:hover .overlay {
+  opacity: 0.5;
+}
+
+.icon {
+  color: $white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.icon-right-open-big {
+  padding: 40px;
+  color: $white;
+  background-color: $grey;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+.icon-right-open-big:hover {
+  background-color: $grey;
+  text-decoration: none;
+}
+
+/*-----------------------------------------FOOTER----------------------------------*/
+.footer-top {
+  background-color: $color;
+  padding-bottom: 30px;
+  line-height: 21px;
+}
+.footer-top .row {
+  margin: 0;
+}
+
+.footer-top h2 {
+  color: $white;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 32px;
+  padding: 35px 10px 35px 0;
+  margin: 0;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: $grey;
+  background-color: $yellow;
+}
+
+.nav-item:hover {
+  color: $grey;
+  background-color: $yellow;
+}
+
+.nav-tabs {
+  border-bottom: none;
+}
+
+.footer-top .left .about a  {
+  font-weight: bold;
+  line-height: 38px;
+  color: $white;
+  background-color: $black;
+  border-bottom: 3px solid $yellow;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 5px 15px;
+}
+
+.footer-top p {
+  padding-bottom: 15px ;
+}
+
+.footer-top .photo li {
+  padding: 2px;
+}
+
+.photo .row {
+  margin-left: 0;
+}
+
+.footer-top .tweets p a{
+  color: $white;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 21px;
+}
+
+.footer-top .tweets span {
+  color: $yellow;
+}
+
+.footer-top .left, .center, .right {
+  padding: 0 1%;
+}
+
+.footer-top .tweets p {
+  padding: 0 0 0 40px;;
+  margin: 0;
+}
+
+.footer-top .days-ago{
+  color: $yellow;
+  font-size: 8px;
+  font-weight: bold;
+  line-height: 21px;
+}
+
+.tweets .row li{
+  margin-bottom: 15px;
+}
+
+.tweets .row p:first-child{
+  background: url(../img/home/twitter-icon.png) left no-repeat;
+  padding: 0 0 0 40px;
+}
+
+.footer-top .social a {
+  color: $white;
+  background-color: $black;
+  padding: 5px 5px 0;
+}
+
+.footer-top .social a:hover {
+  color: $hover;
+}
+
+.social ul {
+  display: flex;
+  align-items: center;
+}
+
+.social ul li{
+  padding:1px;
+}
+
+.follow input {
+  border: none;
+  border-bottom: 2px solid $yellow;
+  background-color: transparent;
+}
+
+.icon-envelope-o, .icon-phone, .icon-map-marker {
+  color: $white;
+  background-color: $black;
+  padding: 5px 7px;
+  margin-right: 20px;
+}
+
+.tel a:hover, .mail a:hover {
+  color: $hover;
+  transition: 1s;
+}
+
+.contact a {
+  color: $bgcolor;
+  font-family: $font;
+  font-size: 13px;
+}
+
+.button .icon-envelope-o:hover {
+  background-color: $hover;
+  transition: 1s;
+}
+
+.tel p:last-child {
+  margin-left: 46%;
+  padding-top: 0;
+  margin-top: -20px;
+}
+
+.footer-bottom {
+  background-color: $black;
+}
+
+.footer-bottom p {
+  color: $white;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 32px;
+  margin: 0;
+}
+
+.footer-bottom .nav-item {
+  margin-left: 80px;
+}
+
+.footer-bottom li {
+  text-transform: uppercase;
+}
+
+.footer-bottom .navbar-dark {
+  padding: 15px 0;
+}
+
+.footer-bottom .navbar .nav-link:hover {
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  color: $grey;
+  background-color: $yellow;
+}
+
+/*-----------------------------------------MEDIA----------------------------------*/
+
+@media (min-width: 576px) {
+
+.navbar-toggler {
+  font-size: 24px;
+  }
+}
+
+@media (min-width: 1200px) {
+
+header .navbar .nav-link {
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 1.6px;
+}
+
+.portfolio .title-post h1 {
+  font-size: 35px;
+}
+
+.portfolio .title-post p {
+  font-size: 24px;
+}
+
+.image {
+  padding: 30px 10px;
+}
+}
